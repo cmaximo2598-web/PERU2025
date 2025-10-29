@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Perú 2025: Crisis Política y Transición Institucional</title>
+  <meta name="description" content="Resumen informativo sobre la situación política del Perú en 2025: vacancia presidencial, seguridad, instituciones, economía y perspectivas hacia 2026.">
+  <style>
+    /* Reset y tipografía */
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;line-height:1.6;color:#0b1724;background:#faf9f7}
+    a{color:#0b66ff;text-decoration:none}
+    img{max-width:100%;height:auto;display:block}
+
+    /* Paleta de colores suaves */
+    :root{
+      --verde-suave:#a8c6a1;
+      --verde-oscuro:#5a875a;
+      --naranja-suave:#f7c7a2;
+      --naranja-oscuro:#e08b4f;
+      --azul-suave:#d7e3fc;
+    }
+
+    /* Contenedor */
+    .container{max-width:1000px;margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 0;border-bottom:3px solid var(--naranja-oscuro)}
+    .logo {
+  height: 48px;
+  width: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+  border-radius: 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--verde-oscuro);
+}
+
+    nav ul{display:flex;gap:14px;list-style:none}
+    .navlink{padding:8px 10px;border-radius:8px;transition:background 0.3s,color 0.3s}
+    .navlink:hover{background:var(--verde-suave);color:#fff}
+
+    /* Hero */
+    .hero{background:linear-gradient(135deg,var(--naranja-suave),var(--verde-suave));padding:28px;border-radius:12px;box-shadow:0 8px 24px rgba(12,20,40,0.06);margin-bottom:20px;color:#233}
+    .hero h1{font-size:1.7rem;margin-bottom:8px;color:#2b2b2b}
+    .meta{color:#333;font-size:0.92rem;margin-bottom:12px}
+
+    /* Layout secciones */
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px}
+    .content{background:#fff;padding:20px;border-radius:10px;border:1px solid #e9eef6}
+    .aside{position:sticky;top:20px;background:var(--azul-suave);padding:18px;border-radius:10px;border:1px solid #d0d8f0}
+
+    h2{font-size:1.05rem;margin-bottom:10px;color:var(--verde-oscuro)}
+    h3{font-size:0.98rem;margin-bottom:8px;color:var(--naranja-oscuro)}
+    p{color:#243;margin-bottom:12px}
+    .section{margin-bottom:18px}
+    .source{font-size:0.9rem;color:#556}
+
+    /* Listas numeradas */
+    ol.sections{counter-reset:sec;list-style:none;padding-left:0}
+    ol.sections > li{counter-increment:sec;margin-bottom:16px;padding-left:10px;background:#fff;border-left:5px solid var(--verde-suave);border-radius:8px;padding:10px 14px}
+    ol.sections > li::before{content:counter(sec) ". ";font-weight:700;color:var(--naranja-oscuro);margin-right:8px}
+
+    /* Footer */
+    footer{margin-top:20px;padding:18px 0;color:#6b7280;font-size:0.9rem;border-top:3px solid var(--verde-oscuro)}
+
+    /* Responsive */
+    @media (max-width:980px){.grid{grid-template-columns:1fr}} 
+    @media (max-width:560px){nav ul{display:none}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+       <img src="infomax.png" alt="Logo Infomax" class="logo">
+       Perú 2025 — Análisis
+      </div>
+      <nav aria-label="Menú principal">
+        <ul>
+          <li><a class="navlink" href="#inicio">Inicio</a></li>
+          <li><a class="navlink" href="#gobierno">Gobierno</a></li>
+          <li><a class="navlink" href="#seguridad">Seguridad</a></li>
+          <li><a class="navlink" href="#instituciones">Instituciones</a></li>
+          <li><a class="navlink" href="#economia">Economía</a></li>
+          <li><a class="navlink" href="#elecciones">Elecciones</a></li>
+          <li><a class="navlink" href="#riesgos">Riesgos</a></li>
+          <li><a class="navlink" href="#conclusion">Conclusión</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+      <h1>Perú 2025: Crisis Política y Transición Institucional</h1>
+      <div class="meta">Última actualización: <span id="fecha"></span> — Fuentes: Reuters, AP, Wikipedia, HRW, IMF, entre otras.</div>
+      <p>Este informe resume los principales elementos de la coyuntura peruana en 2025: la vacancia presidencial, el aumento de la inseguridad, la fragilidad institucional, la situación económica y el horizonte electoral de 2026.</p>
+    </section>
+
+    <div class="grid">
+      <main class="content" role="main">
+        <!-- Secciones informativas -->
+        <ol class="sections">
+          <li id="gobierno" class="section">
+            <h2>1. Cambios de Gobierno / Inestabilidad</h2>
+            <p>La presidenta Dina Boluarte fue removida por el Congreso el <strong>10 de octubre de 2025</strong> mediante vacancia por “incapacidad moral permanente”. José Jerí asumió como presidente interino el mismo día. La transición ocurre en un contexto de alta rotación presidencial, lo que alimenta la percepción de inestabilidad institucional.</p>
+            <p class="source">Fuentes: <a href="https://en.wikipedia.org/wiki/Impeachment_of_Dina_Boluarte" target="_blank">Wikipedia</a>, <a href="https://en.wikipedia.org/wiki/Jos%C3%A9_Jer%C3%AD" target="_blank">Wikipedia — José Jerí</a>.</p>
+          </li>
+
+          <li id="seguridad" class="section">
+            <h2>2. Seguridad, crimen y orden público</h2>
+            <p>El incremento de la inseguridad, homicidios y extorsiones ha sido determinante en la crisis. En octubre de 2025, Lima y Callao fueron declarados en <strong>estado de emergencia</strong> para permitir la participación de las Fuerzas Armadas ante el aumento del crimen organizado.</p>
+            <p class="source">Fuente: <a href="https://www.reuters.com/world/americas/peru-declares-30-day-state-of-emergency-lima-tackle-rising-crime-2025-10-22/" target="_blank">Reuters</a>.</p>
+          </li>
+
+          <li id="instituciones" class="section">
+            <h2>3. Instituciones, democracia y derechos civiles</h2>
+            <p>El Congreso mantiene una percepción negativa y enfrenta investigaciones por corrupción. Organizaciones como <em>Human Rights Watch</em> advierten que las recientes reformas legislativas debilitan la independencia judicial y la defensa de los derechos humanos.</p>
+            <p class="source">Fuentes: <a href="https://www.hrw.org/world-report/2025/country-chapters/peru" target="_blank">HRW — World Report 2025</a>.</p>
+          </li>
+
+          <li id="economia" class="section">
+            <h2>4. Economía y reformas</h2>
+            <p>La economía peruana crece alrededor del <strong>2.8%</strong> en 2025, pero el Fondo Monetario Internacional destaca la necesidad de reformas estructurales: descentralización, fortalecimiento judicial y lucha contra la corrupción para atraer inversión sostenida.</p>
+            <p class="source">Fuente: <a href="https://www.imf.org/en/News/Articles/2025/06/09/pr-25186-peru-imf-concludes-2025-art-iv-consultation" target="_blank">IMF — Artículo IV 2025</a>.</p>
+          </li>
+
+          <li id="elecciones" class="section">
+            <h2>5. Elecciones y futuro político</h2>
+            <p>Las elecciones generales se celebrarán en <strong>abril de 2026</strong>. Analistas consideran que 2025 es un “año de preparación”, con partidos y coaliciones reestructurándose para competir en un entorno de alta desconfianza ciudadana.</p>
+            <p class="source">Fuente: <a href="https://apnews.com/article/dabea7cd70b6288542317b080b99c8aa" target="_blank">AP News</a>.</p>
+          </li>
+
+          <li id="riesgos" class="section">
+            <h2>6. Factores de riesgo y tensiones clave</h2>
+            <p>La combinación de inseguridad, corrupción e ilegitimidad política mina la gobernabilidad. Las protestas juveniles y urbanas reflejan un descontento generalizado que podría prolongar la inestabilidad hasta el ciclo electoral.</p>
+            <p class="source">Fuentes: Wikipedia, HRW, Reuters, IMF.</p>
+          </li>
+        </ol>
+
+        <section id="conclusion" class="section">
+          <h2>Conclusión</h2>
+          <p>Perú atraviesa un periodo de transición institucional y social. Los retos combinan la urgencia de estabilizar la gobernabilidad con la necesidad de reformas estructurales que restauren la confianza ciudadana. La sostenibilidad de la democracia dependerá de la capacidad del sistema político para recomponerse antes de las elecciones de 2026.</p>
+        </section>
+      </main>
+
+      <aside class="aside">
+        <h3>Fuentes y enlaces</h3>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Impeachment_of_Dina_Boluarte" target="_blank">Wikipedia — Vacancia de Dina Boluarte</a></li>
+          <li><a href="https://www.reuters.com/world/americas/peru-declares-30-day-state-of-emergency-lima-tackle-rising-crime-2025-10-22/" target="_blank">Reuters — Estado de emergencia</a></li>
+          <li><a href="https://www.hrw.org/world-report/2025/country-chapters/peru" target="_blank">HRW — Informe Mundial 2025</a></li>
+          <li><a href="https://www.imf.org/en/News/Articles/2025/06/09/pr-25186-peru-imf-concludes-2025-art-iv-consultation" target="_blank">IMF — Informe económico</a></li>
+          <li><a href="https://apnews.com/article/dabea7cd70b6288542317b080b99c8aa" target="_blank">AP News — Elecciones 2026</a></li>
+        </ul>
+        <h3>Créditos</h3>
+        <p class="source">Compilado con base en fuentes públicas. Diseño informativo adaptado por ChatGPT a solicitud del usuario.</p>
+      </aside>
+    </div>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;align-items:center">
+        <div>&copy; <span id="year"></span> Perú 2025 — Análisis. Todos los derechos reservados.</div>
+        <div style="font-size:0.9rem;color:#556">Última actualización: <span id="fechaFoot"></span></div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const ahora = new Date();
+    const opciones = { year: 'numeric', month: 'long', day: 'numeric' };
+    document.getElementById('fecha').textContent = ahora.toLocaleDateString('es-PE', opciones);
+    document.getElementById('fechaFoot').textContent = ahora.toLocaleDateString('es-PE', opciones);
+    document.getElementById('year').textContent = ahora.getFullYear();
+
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target) target.scrollIntoView({behavior:'smooth'});
+      });
+    });
+  </script>
+</body>
+</html>
